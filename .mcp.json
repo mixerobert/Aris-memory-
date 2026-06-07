@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ombre-brain": {
+      "type": "http",
+      "url": "https://macarena-oat-scandal.ngrok-free.dev/mcp",
+      "headers": {
+        "ngrok-skip-browser-warning": "true"
+      }
+    }
+  }
+}
