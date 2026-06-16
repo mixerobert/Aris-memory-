@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "ombre-brain": {
+      "type": "http",
+      "url": "https://macarena-oat-scandal.ngrok-free.dev/mcp",
+      "headers": {
+        "ngrok-skip-browser-warning": "true"
+      }
+    },
+    "imprint-telegram": {
+      "command": "python3",
+      "args": ["packages/imprint_telegram/server.py"]
+    },
+    "imprint-utils": {
+      "command": "python3",
+      "args": ["packages/imprint_utils/server.py"]
+    }
+  }
+}
